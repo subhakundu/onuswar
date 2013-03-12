@@ -1,0 +1,469 @@
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8;" />
+ <link rel="shortcut icon" type="image/x-icon" href="shortcuticon.png">
+ <title>কবিতার নাম অার স্বপ্ন</title>
+ <link rel="stylesheet" href="foundation/stylesheets/app.css">  
+ <link rel="stylesheet" href="foundation/stylesheets/foundation.css">
+ <link rel="stylesheet" href="foundation/stylesheets/foundation.min.css">
+</head>
+<script type="text/javascript">
+function unloadHome()
+{
+ 
+ var disp=document.getElementById('home').style.display;
+ if(disp==='' || disp==='block')
+  document.getElementById('home').style.display='none';
+}
+function loadHome()
+{
+ document.getElementById('home').style.display='';
+}
+function loadBody()
+{
+ document.getElementById('home').style.display='block';
+ document.getElementById('latestpoems').style.display='none';
+ document.getElementById('archieveshome').style.display='none';
+ document.getElementById('hereweare').style.display='none';
+ document.getElementById('contactus').style.display='none';
+}
+</script>
+<!--
+<script type="text/javascript">
+function loadHome(){
+alert('home');
+document.getElementById('home').style.display='block';
+document.getElementById('latestpoems').style.display='none';
+document.getElementById('archieves').style.display='none';
+document.getElementById('hereweare').style.display='none';
+document.getElementById('contactus').style.display='none';
+}
+</script>
+-->
+<style>
+body{
+/*background-color: #F7F5F5;*/
+background-image: url('testSoumBack.jpg');
+text-align: center;
+background-attachment: fixed;
+}
+.shadow
+{
+     box-shadow:20px 20px 70px #4E4848;
+     -webkit-box-shadow:20px 20px 70px #4E4848;
+     -moz-box-shadow:20px 20px 70px #4E4848;
+}
+
+.shadowMenu
+{
+     box-shadow:5px 5px 8px #4E4848;
+     -webkit-box-shadow:5px 5px 8px #4E4848;
+     -moz-box-shadow:5px 5px 8px #4E4848;
+}
+.shadowMainDiv
+{
+     box-shadow:5px 5px 6px #4E4848;
+     -webkit-box-shadow:5px 5px 6px #4E4848;
+     -moz-box-shadow:5px 5px 6px #4E4848;
+}
+/*
+table
+{
+margin: auto;
+
+}*/
+.table-text
+{
+ color: #000000;
+ font-size: 150%;
+ margin-top: 10%;
+}
+/*
+span
+{
+vertical-align: middle;
+}
+*/
+/*
+.cellBorder
+{
+
+border-top-color: #F7F5F5;
+border-bottom-color: #F7F5F5;
+border-right-color: #F7F5F5;
+border-left-color: #F7F5F5;
+}*/
+li
+{
+list-style-type: none;
+}
+.menu-bar
+{
+background: #FFF;
+border: 2px solid;
+border-color: #000000;
+border-radius: 25px;
+-moz-border-radius: 25px;
+text-align: center;
+margin-top:10%;
+}
+.menu-bar:hover {
+
+background: #F7F5F5;
+border-color: #736F6E;
+}
+
+.menu-bar-div-home
+{
+ position: absolute;
+ border: 2px solid;
+ border-color: #736F6E;
+ border-radius: 25px;
+ -moz-border-radius: 25px;
+ height: 426;
+ width: 660;
+ margin-top: 2%;
+ opacity: 1;
+ -webkit-transition: opacity 400ms ease-in;
+ -moz-transition: opacity 400ms ease-in;
+ transition: opacity 400ms ease-in;
+ pointer-events: none;
+ /*overflow-y: scroll;*/
+}
+.menu-bar-div-home:target{
+display: block;
+opacity: 1;
+pointer-events: auto;
+}
+
+
+.menu-bar-div
+{
+ position: absolute;
+ border: 2px solid;
+ border-color: #736F6E;
+ border-radius: 25px;
+ -moz-border-radius: 25px;
+ height: 426;
+ width: 660;
+ margin-top: 2%;
+ opacity: 0;
+ -webkit-transition: opacity 400ms ease-in;
+ -moz-transition: opacity 400ms ease-in;
+ transition: opacity 400ms ease-in;
+ pointer-events: none;
+ overflow-y: scroll;
+ display: none;
+}
+.menu-bar-div:target{
+display: block;
+opacity: 1;
+pointer-events: auto;
+overflow-y: scroll;
+}
+.menu-bar-div > div {
+       	 border: 2px solid;
+	 border-color: #000;
+ 	 border-radius: 25px;
+ 	 -moz-border-radius: 25px;
+         height: 426;
+         width: 660;
+         margin-top: 2%;
+         overflow-y: scroll;
+         /*  
+         background: -moz-linear-gradient( #F7F5F5, #fff);
+         background: -webkit-linear-gradient(#F7F5F5, #fff);
+         background: -o-linear-gradient(#F7F5F5, #FFF);
+         */
+}
+.menu-bar-div-text
+{
+padding: 5px 20px 13px 20px;
+}
+hr
+{
+border: 0;
+background-color: #000;
+height: 1px;
+width: 100%;
+}
+a{
+text-decoration:none;
+color:#808080;
+font-size: 130%;
+}
+/*
+iframe
+{
+ width: 660;
+ height:426;
+ border: 2px solid;
+ border-color:#999;
+ border-radius: 25px;
+-moz-border-radius: 25px;
+ margin-top:3%;  
+}*/
+header
+{
+ position: absolute;
+ text-align: left;
+ background-color:#fff;
+ width: 100%;
+}
+footer
+{
+ position: absolute;
+ text-align: center;
+ background-color:#fff;
+ width: 50%;
+ height: 4%;
+ margin-left: 25%; 
+}
+.textShadow {
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 3px 0 #b9b9b9,
+               0 3px 0 #aaa,
+               0 4px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 3px 10px rgba(0,0,0,.25),
+               0 8px 10px rgba(0,0,0,.2),
+               0 17px 20px rgba(0,0,0,.15);
+}
+.icon{
+display: block;
+}
+/*
+.letterPress
+{
+ color: #222;
+ text-shadow: 0px 2px 3px #555;
+}
+*/
+.example-icon { 
+			background-color:#F7F5F5; 
+			float:left;
+			position:relative;
+			padding:45px 5px 0px;
+			width: 4%;
+                        margin-left: 10%;
+			} 
+	 	.example-icon .example-DJ {
+		    text-transform: uppercase;
+		    font-size:27px;
+                    color: #222;
+                        text-shadow: 0px 2px 3px #555;
+			}
+		.example-icon .example-K {
+			font-size:45px;
+line-height:45px;
+			position:absolute; left:5px; top:0px;
+			color: #222;
+                        text-shadow: 0px 2px 3px #555;
+                     }
+	    .example-icon .example-NS { 
+			display:block;
+                        font-size:25px; 
+			position:absolute; right:-5px; top:15px;
+			-webkit-transform: rotate(-90deg); 
+			-moz-transform: rotate(-90deg);
+                        color: #222;
+                        text-shadow: 0px 2px 3px #555;			
+			}
+
+</style>
+<body>
+  <header>
+<div class="example-icon"><span class="example-K">K</span> <span class="example-DJ">DJ</span> <span class="example-NS">N S</span></div>  
+<div style="float: left; width: 70%;text-align: left;"><h1 class="textShadow" style="padding-left: 10;" >কবিতার নামে স্বপ্ন দেখছি যারা</h1></div>
+  <!--
+   <div class="icon">
+    <span><p class="letterPress">K</p></span>
+    <span><p class="letterPress">N</p></span>
+    <span><p class="letterPress">S</p></span>
+    <span><p class="letterPress">D</p></span>
+    <span><p class="letterPress">J</p></span>
+   </div>
+  -->
+  
+  </header>
+<br><br><br><br><br><br>
+<table class="shadow" style="margin: auto">
+<tr>
+<td>
+<div class="row">
+ <div class="twelve columns">
+  <h2 class="textShadow">কবিতার নামে স্বপ্ন দেখছি যারা</h2>
+  <p class="textShadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.
+</p>
+</div>
+</div>
+
+<!--Side Menu Bar-->
+<div class="row">
+ <div class="three columns">
+  <div class="twelve columns">
+   <ul>
+    <li>
+    <a href="#home">
+    <div class="menu-bar shadowMenu"  onclick="loadHome()">
+    <p class="table-text textShadow">Home</p>
+    </div>
+    </a>
+    </li>
+    <li>
+    <a href="#latestpoems">
+    <div class="menu-bar shadowMenu" onclick="unloadHome()">
+    <p class="table-text textShadow">Latest Poems</p>
+    </div>
+    </a>
+    </li>
+    <li>
+    <a href="#archieves">
+    <div class="menu-bar shadowMenu" onclick="unloadHome()">
+    <p class="table-text textShadow">Archieve</p>
+    </div>
+    </a>
+   </li>
+   <li>
+   <a href="#hereweare">
+   <div class="menu-bar shadowMenu" onclick="unloadHome()">
+   <p class="table-text textShadow">Here We Are</p>
+   </div></a>
+   </li>
+   <li>
+    <a href="#contactus">
+    <div class="menu-bar shadowMenu"  onclick="unloadHome()">
+    <p class="table-text textShadow">Contact Us</p>
+   </div> </a>
+  </li>
+   </ul>
+  </div>
+ </div>
+ <div class="eight columns end">
+  <div class="row">
+   <div class="twelve columns">
+    <!--Menubar Divisions-->
+<div id="home" class="menu-bar-div-home shadowMainDiv">
+     <p class="menu-bar-div-text textShadow">
+    Being's
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.
+     </p>
+</div>   
+<div id="latestpoems" class="menu-bar-div shadowMainDiv">
+     <p class="menu-bar-div-text textShadow">
+
+    মইনুদ্দিনের কোনো দেবতা ছিল না।<br><br>
+
+সে দরগায় আল্লাহার সাজদায় ভাবত,<br>
+তার একারই কেন দেবতা জটে না।<br>
+একে অবশ্য সেও প্রার্থনা মনে করেনি।<br>
+মইনুদ্দিন সকাল থেকে দুপুর খাটতো<br>
+তার রুটির দকানে;<br>
+বিকেলে বিলে মাছ ধরতে যেত।<br>
+তার বউ যেদিন পালিয়ে যায়;<br>
+সেদিনও হিসেবের বেগড়-বাইয়ে,<br>
+ক্যাশিয়ার আলমকে নিয়ে,<br>
+পড়ে ছিল বিকেল অব্দি।<br>
+এমনকি ছেলের প্রবাসেও<br>
+নষ্ট করেনি পিঁপড়ের ডিম।<br>
+মাছ অবশ্য আসে নি।<br><br>
+
+তবুও আজীবন এই নিয়েই<br>
+মইনুদ্দিন বেঁচেছে।<br><br>
+
+খোদা তার সাধ পূরণ করেছিলেন;<br><br>
+
+মইনুদ্দিনের কোনো দেবতা ছিল না।     </p>
+</div>   
+<div id="archieves" class="menu-bar-div shadowMainDiv">
+     <p class="menu-bar-div-text textShadow">
+     Avik Pal
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.
+     </p>
+</div>   
+<div id="hereweare" class="menu-bar-div shadowMainDiv">
+     
+     <br>
+      <br>
+       <li>
+        <ol><a href="http://www.facebook.com/soumyadeep.banerjee.50" target="_blank" class="textShadow"><b>Soumyadeep Banerjee</b></a></ol>
+        <ol><a href="http://www.facebook.com/arghya.bhattacharjee1" target="_blank" class="textShadow"><b>Arghya Bhattacharjee</b></a></ol>
+        <ol><a href="http://www.facebook.com/jyotirmoy.pramanik.9" target="_blank" class="textShadow"><b>Jyotirmay Pramanik</b></a></ol>
+        <ol><a href="http://www.facebook.com/subhakundubesu" target="_blank" class="textShadow"><b>Subhasish Kundu</b></a></ol>
+       </li>
+</div>   
+<div id="contactus" class="menu-bar-div shadowMainDiv">
+    <h4 class="menu-bar-div-text textShadow">Organizer:</h4>
+       <p class="menu-bar-div-text textShadow">
+         <a href="https://www.facebook.com/soumyadeep.banerjee.50" target="_blank"><b>Soumyadeep Banerjee</b></a><br>
+         Department of Power Engineering, Jadavpur University<br>Email ID.: smdp.bnrj@gmail.com<br>Mobile No.: 9163218395
+
+         <br><br>
+
+       <a href="https://www.facebook.com/arghya.bhattacharjee1" target="_blank"><b>Arghya Bhattacharjee</b></a><br>
+         Department of Power Engineering, Jadavpur University<br>Email ID.: bhattacharjee0bubai@gmail.com<br>Mobile No.: 8013826659
+      
+       <br><br>
+
+       <a href="https://www.facebook.com/jyotirmoy.pramanik.9" target="_blank"><b>Jyotirmay Pramanik</b></a><br>
+         Department of Power Engineering, Calcutta University<br>Email ID.: jyotirmoy.pramanik2@gmail.com<br>Mobile No.: 9038585094
+       
+       <!--Add New Member-->
+      
+     </p>
+     <hr>
+     <h4 class="menu-bar-div-text textShadow">Website-Designer:</h4>
+       <p class="menu-bar-div-text textShadow">
+       <a href="http://about.me/subhasish_kundu" target="_blank"><b>Subhasish Kundu</b></a><br>
+         Department of Computer Science and Technology, BESU, Shibpur<br>Email ID.: subhasish.kundu3@gmail.com<br>Mobile No.: 8902267493</p>
+</div>   
+   </div>
+  </div>  
+ </div>
+</div>
+<!--
+<div class="row">
+ <div class="three columns mobile-two">
+  <h2>Three Columns</h2>
+   <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.
+   </p>
+ </div>
+
+<div class="three columns mobile-two">
+  <h2>Three Columns</h2>
+   <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.
+   </p>
+ </div>
+
+<div class="three columns mobile-two">
+  <h2>Three Columns</h2>
+   <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.
+   </p>
+ </div>
+
+<div class="three columns mobile-two">
+  <h2>Three Columns</h2>
+   <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.
+   </p>
+ </div>
+
+</div>
+-->
+</td>
+</tr>
+</table>
+<br><br>
+<footer><p  class="textShadow" style="vertical-align: middle;">
+&copy; কবিতার নামে swapno দেখেছি যারা&nbsp; Follow us on <a href="http://www.facebook.com/groups/K.N.S.D.J" target="_blank"><img src="facebook.jpeg" width="20" height="20" style="vertical-align: middle"></a></p>
+</footer>
+</body>
+</html>
+
